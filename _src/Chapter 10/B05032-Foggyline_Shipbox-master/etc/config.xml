@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <shipbox>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Foggyline\Shipbox\Model\Carrier\Shipbox</model>
+                <name>Shipbox</name>
+                <price>4.99</price>
+                <title>Foggyline Shipbox</title>
+                <specificerrmsg>This shipping method is not available.
+                    To use this shipping method, please contact us.</specificerrmsg>
+            </shipbox>
+        </carriers>
+    </default>
+</config>

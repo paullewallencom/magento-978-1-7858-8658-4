@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Catalog:etc/product_types.xsd">
+    <type name="foggylinedailydeal"
+          label="Daily Deal"
+          modelInstance="Foggyline\DailyDeal\Model\Product\Type\DailyDeal"
+          composite="false"
+          isQty="true"
+          canUseQtyDecimals="false">
+        <priceModel instance="Foggyline\DailyDeal\Model\Product\Price"/>
+        <indexerModel instance="Foggyline\DailyDeal\Model\ResourceModel\Indexer\Price"/>
+        <stockIndexerModel instance="Foggyline\DailyDeal\Model\ResourceModel\Indexer\Stock"/>
+        <!-- customAttributes parsed by Magento\Catalog\Model\ProductTypes\Config -->
+        <customAttributes>
+            <attribute name="is_real_product" value="true"/>
+            <attribute name="refundable" value="false"/>
+            <attribute name="taxable" value="true"/>
+        </customAttributes>
+    </type>
+</config>

@@ -1,0 +1,5 @@
+This code bundle consists of code files for chapters 5, 6, 8, 9, 10, and 12.
+
+Chapters 1, 2, 3, 4, 7, and 11 don'y have code files.
+
+Also, the code files for Mac OS X are included in this code bundle.
